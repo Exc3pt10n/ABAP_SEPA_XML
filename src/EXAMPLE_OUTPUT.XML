@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03 pain.001.001.03.xsd">
+ <CstmrCdtTrfInitn>
+ <GrpHdr>
+ <MsgId>0123456789</MsgId>
+ <CreDtTm>2018-04-19T13:35:18</CreDtTm>
+ <NbOfTxs>2</NbOfTxs>
+ <CtrlSum>36.98</CtrlSum>
+ <InitgPty>
+ <Nm>Company XY</Nm>
+ </InitgPty>
+ </GrpHdr>
+ <PmtInf>
+ <PmtInfId>0123456789</PmtInfId>
+ <PmtMtd>TRF</PmtMtd>
+ <BtchBookg>false</BtchBookg>
+ <NbOfTxs>2</NbOfTxs>
+ <CtrlSum>36.98</CtrlSum>
+ <PmtTpInf>
+ <InstrPrty>NORM</InstrPrty>
+ <SvcLvl>
+ <Cd>URGP</Cd>
+ </SvcLvl>
+ </PmtTpInf>
+ <ReqdExctnDt>2018-04-19</ReqdExctnDt>
+ <Dbtr>
+ <Nm>Company XY</Nm>
+ </Dbtr>
+ <DbtrAcct>
+ <Id>
+ <IBAN>DE56214800000000000052</IBAN>
+ </Id>
+ </DbtrAcct>
+ <DbtrAgt>
+ <FinInstnId>
+ <BIC>AACSDE33XXX</BIC>
+ </FinInstnId>
+ </DbtrAgt>
+ <ChrgBr>SLEV</ChrgBr>
+ <CdtTrfTxInf>
+ <PmtId>
+ <EndToEndId>Referenz</EndToEndId>
+ </PmtId>
+ <Amt>
+ <InstdAmt Ccy="EUR">15.99</InstdAmt>
+ </Amt>
+ <CdtrAgt>
+ <FinInstnId>
+ <BIC>AACSDE33XXX</BIC>
+ </FinInstnId>
+ </CdtrAgt>
+ <Cdtr>
+ <Nm>Sebastian Jansen</Nm>
+ </Cdtr>
+ <CdtrAcct>
+ <Id>
+ <IBAN>DE02390500000330983560</IBAN>
+ </Id>
+ </CdtrAcct>
+ <RmtInf>
+ <Ustrd>Testüberweisung</Ustrd>
+ </RmtInf>
+ </CdtTrfTxInf>
+ <CdtTrfTxInf>
+ <PmtId>
+ <EndToEndId>Referenz 2</EndToEndId>
+ </PmtId>
+ <Amt>
+ <InstdAmt Ccy="EUR">20.99</InstdAmt>
+ </Amt>
+ <CdtrAgt>
+ <FinInstnId>
+ <BIC>AACSDE33XXX</BIC>
+ </FinInstnId>
+ </CdtrAgt>
+ <Cdtr>
+ <Nm>Sebastian Jansen</Nm>
+ </Cdtr>
+ <CdtrAcct>
+ <Id>
+ <IBAN>DE02390500000330983560</IBAN>
+ </Id>
+ </CdtrAcct>
+ <RmtInf>
+ <Ustrd>Testüberweisung 2</Ustrd>
+ </RmtInf>
+ </CdtTrfTxInf>
+ </PmtInf>
+ </CstmrCdtTrfInitn>
+</Document>
